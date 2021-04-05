@@ -54,8 +54,8 @@ body {
   list-style: none;
 }
 
-input,
-button {
+.input,
+.b {
   outline: none;
 }
 
@@ -126,7 +126,7 @@ button {
   width: 226px;
 }
 
-li > input[type="text"] {
+.task-list__input {
   width: 226px;
 }
 
