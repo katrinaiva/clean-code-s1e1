@@ -21,25 +21,27 @@ body {
 }
 
 @media (max-width: 768px) {
-  .aaa {
+  .img-block {
     text-align: center;
   }
 }
 
-.centered-main-page-element {
+.centered-element {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
 
-.task {
+.add-item__input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
+  width: 318px;
 }
 
-.task-row-wrapper {
+.add-item__wrapper {
   display: flex;
+  padding-top: 20px;
 }
 
 ul {
@@ -104,10 +106,6 @@ input[type="text"]:focus {
 label[for="new-task"] {
   display: block;
   margin: 0 0 20px;
-}
-
-input#new-task {
-  width: 318px;
 }
 
 p > button:hover {
