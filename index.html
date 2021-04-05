@@ -34,21 +34,25 @@
         <ul id="incomplete-tasks" class="task-list">
           <li class="task-list__item">
             <input class="task-list__checkbox" type="checkbox" />
-            <label class="task-list__label task">Pay Bills</label>
+            <label class="task-list__label">Pay Bills</label>
             <input class="input task-list__input" type="text" />
-            <button class="edit btn">Edit</button>
-            <button class="delete btn"><img src="./remove.svg" /></button>
+            <button class="task-list__btn-edit btn">Edit</button>
+            <button class="task-list__btn-delete btn">
+              <img src="./remove.svg" />
+            </button>
           </li>
           <li class="edit-mode task-list__item">
             <input class="task-list__checkbox" type="checkbox" />
-            <label class="task-list__label task">Go Shopping</label>
+            <label class="task-list__label">Go Shopping</label>
             <input
               type="text"
               value="Go Shopping"
-              class="task-list__input task input"
+              class="task-list__input input"
             />
-            <button class="edit btn">Save</button>
-            <button class="delete btn"><img src="./remove.svg" /></button>
+            <button class="task-list__btn-edit btn">Save</button>
+            <button class="task-list__btn-delete btn">
+              <img src="./remove.svg" />
+            </button>
           </li>
         </ul>
       </section>
@@ -57,10 +61,12 @@
         <ul id="completed-tasks" class="task-list">
           <li class="task-list__item">
             <input type="checkbox" class="task-list__checkbox" checked />
-            <label class="task-list__label task">See the Doctor</label>
-            <input type="text" class="task-list__input task input" />
-            <button class="edit btn">Edit</button>
-            <button class="delete btn"><img src="./remove.svg" /></button>
+            <label class="task-list__label">See the Doctor</label>
+            <input type="text" class="task-list__input input" />
+            <button class="task-list__btn-edit btn">Edit</button>
+            <button class="task-list__btn-delete btn">
+              <img src="./remove.svg" />
+            </button>
           </li>
         </ul>
       </section>
